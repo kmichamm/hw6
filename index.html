@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Button Click Hide Image</title>
+	<style>
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<button onclick="hideImage()">Hide Image</button>
+	<img id="image" src="image.jpg" alt="Image">
+	<script>
+		function hideImage() {
+			var image = document.getElementById("image");
+			image.style.display = "none";
+		}
+	</script>
+</body>
+</html>
